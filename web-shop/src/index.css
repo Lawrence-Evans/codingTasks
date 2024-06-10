@@ -1,0 +1,58 @@
+/* Added repeating background image */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* using local image that overlaps */
+  background-image: url("file:///C:/Users/Lawrence Evans/Documents/Cogrammar/Tasks/T20 - React - Routing/web-shop/src/components/ball-background.jpg");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Spacing all elements away from the page view edges. */
+#root {
+  margin: 7.5%;
+  font-weight: bolder;
+}
+
+/* Giving text a background to stand out more */
+#navigation {
+  background-color: tan;
+  border: solid;
+}
+
+/* Position totalPrice to the right */
+#totalPriceDisplay {
+  background-color: skyblue;
+  font-size: large;
+  border-radius: 5%;
+  border: solid;
+  padding: 40px;
+  float: right;
+}
+
+/* Center aligning inventory items */
+#productDisplay {
+  display: flex;
+}
+
+/* making images appear ball shaped */
+#aboutImage {
+  border-radius: 50%;
+  border-style: ridge;
+  margin: 20px;
+}
+
+#aboutText {
+  padding: 10px;
+  font-size: x-large;
+  font-weight: bolder;
+  background-color: tan;
+  border: solid;
+}
